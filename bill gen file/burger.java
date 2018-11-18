@@ -6,12 +6,7 @@ public class burger {
     public static void main(String[] args){
 
         while ( true) {
-            boolean k = false;
-            boolean l = false;
-            boolean m = false;
-            boolean h = false;
-            boolean i = false;
-            boolean j = false;
+            boolean k,l,m,h,i,j = false;
             pricecalc price = new pricecalc();
             System.out.println("enter the type of burger :" + "\n" + " 1 for veg burger " + "\n" + " 2 for chicken burger " + "\n" + " 3 for  extravaganza");
             int type = scanner.nextInt();
